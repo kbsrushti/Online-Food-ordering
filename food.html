@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Order Details</title>
+    
+    <!-- bootstrap 4 css -->
+    <style type="text/css">svg:not(:root).svg-inline--fa{overflow:visible}.svg-inline--fa{display:inline-block;font-size:inherit;height:1em;overflow:visible;vertical-align:-.125em}.svg-inline--fa.fa-lg{vertical-align:-.225em}.svg-inline--fa.fa-w-1{width:.0625em}.svg-inline--fa.fa-w-2{width:.125em}.svg-inline--fa.fa-w-3{width:.1875em}.svg-inline--fa.fa-w-4{width:.25em}.svg-inline--fa.fa-w-5{width:.3125em}.svg-inline--fa.fa-w-6{width:.375em}.svg-inline--fa.fa-w-7{width:.4375em}.svg-inline--fa.fa-w-8{width:.5em}.svg-inline--fa.fa-w-9{width:.5625em}.svg-inline--fa.fa-w-10{width:.625em}.svg-inline--fa.fa-w-11{width:.6875em}.svg-inline--fa.fa-w-12{width:.75em}.svg-inline--fa.fa-w-13{width:.8125em}.svg-inline--fa.fa-w-14{width:.875em}.svg-inline--fa.fa-w-15{width:.9375em}.svg-inline--fa.fa-w-16{width:1em}.svg-inline--fa.fa-w-17{width:1.0625em}.svg-inline--fa.fa-w-18{width:1.125em}.svg-inline--fa.fa-w-19{width:1.1875em}.svg-inline--fa.fa-w-20{width:1.25em}.svg-inline--fa.fa-pull-left{margin-right:.3em;width:auto}.svg-inline--fa.fa-pull-right{margin-left:.3em;width:auto}.svg-inline--fa.fa-border{height:1.5em}.svg-inline--fa.fa-li{width:2em}.svg-inline--fa.fa-fw{width:1.25em}.fa-layers svg.svg-inline--fa{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0}.fa-layers{display:inline-block;height:1em;position:relative;text-align:center;vertical-align:-.125em;width:1em}.fa-layers svg.svg-inline--fa{-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-counter,.fa-layers-text{display:inline-block;position:absolute;text-align:center}.fa-layers-text{left:50%;top:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-transform-origin:center center;transform-origin:center center}.fa-layers-counter{background-color:#ff253a;border-radius:1em;-webkit-box-sizing:border-box;box-sizing:border-box;color:#fff;height:1.5em;line-height:1;max-width:5em;min-width:1.5em;overflow:hidden;padding:.25em;right:0;text-overflow:ellipsis;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-bottom-right{bottom:0;right:0;top:auto;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:bottom right;transform-origin:bottom right}.fa-layers-bottom-left{bottom:0;left:0;right:auto;top:auto;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:bottom left;transform-origin:bottom left}.fa-layers-top-right{right:0;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top right;transform-origin:top right}.fa-layers-top-left{left:0;right:auto;top:0;-webkit-transform:scale(.25);transform:scale(.25);-webkit-transform-origin:top left;transform-origin:top left}.fa-lg{font-size:1.3333333333em;line-height:.75em;vertical-align:-.0667em}.fa-xs{font-size:.75em}.fa-sm{font-size:.875em}.fa-1x{font-size:1em}.fa-2x{font-size:2em}.fa-3x{font-size:3em}.fa-4x{font-size:4em}.fa-5x{font-size:5em}.fa-6x{font-size:6em}.fa-7x{font-size:7em}.fa-8x{font-size:8em}.fa-9x{font-size:9em}.fa-10x{font-size:10em}.fa-fw{text-align:center;width:1.25em}.fa-ul{list-style-type:none;margin-left:2.5em;padding-left:0}.fa-ul>li{position:relative}.fa-li{left:-2em;position:absolute;text-align:center;width:2em;line-height:inherit}.fa-border{border:solid .08em #eee;border-radius:.1em;padding:.2em .25em .15em}.fa-pull-left{float:left}.fa-pull-right{float:right}.fa.fa-pull-left,.fab.fa-pull-left,.fal.fa-pull-left,.far.fa-pull-left,.fas.fa-pull-left{margin-right:.3em}.fa.fa-pull-right,.fab.fa-pull-right,.fal.fa-pull-right,.far.fa-pull-right,.fas.fa-pull-right{margin-left:.3em}.fa-spin{-webkit-animation:fa-spin 2s infinite linear;animation:fa-spin 2s infinite linear}.fa-pulse{-webkit-animation:fa-spin 1s infinite steps(8);animation:fa-spin 1s infinite steps(8)}@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes fa-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}.fa-rotate-90{-webkit-transform:rotate(90deg);transform:rotate(90deg)}.fa-rotate-180{-webkit-transform:rotate(180deg);transform:rotate(180deg)}.fa-rotate-270{-webkit-transform:rotate(270deg);transform:rotate(270deg)}.fa-flip-horizontal{-webkit-transform:scale(-1,1);transform:scale(-1,1)}.fa-flip-vertical{-webkit-transform:scale(1,-1);transform:scale(1,-1)}.fa-flip-both,.fa-flip-horizontal.fa-flip-vertical{-webkit-transform:scale(-1,-1);transform:scale(-1,-1)}:root .fa-flip-both,:root .fa-flip-horizontal,:root .fa-flip-vertical,:root .fa-rotate-180,:root .fa-rotate-270,:root .fa-rotate-90{-webkit-filter:none;filter:none}.fa-stack{display:inline-block;height:2em;position:relative;width:2.5em}.fa-stack-1x,.fa-stack-2x{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0}.svg-inline--fa.fa-stack-1x{height:1em;width:1.25em}.svg-inline--fa.fa-stack-2x{height:2em;width:2.5em}.fa-inverse{color:#fff}.sr-only{border:0;clip:rect(0,0,0,0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.sr-only-focusable:active,.sr-only-focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}.svg-inline--fa .fa-primary{fill:var(--fa-primary-color,currentColor);opacity:1;opacity:var(--fa-primary-opacity,1)}.svg-inline--fa .fa-secondary{fill:var(--fa-secondary-color,currentColor);opacity:.4;opacity:var(--fa-secondary-opacity,.4)}.svg-inline--fa.fa-swap-opacity .fa-primary{opacity:.4;opacity:var(--fa-secondary-opacity,.4)}.svg-inline--fa.fa-swap-opacity .fa-secondary{opacity:1;opacity:var(--fa-primary-opacity,1)}.svg-inline--fa mask .fa-primary,.svg-inline--fa mask .fa-secondary{fill:#000}.fad.fa-inverse{color:#fff}</style><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- fontawesome cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js" integrity="sha512-YSdqvJoZr83hj76AIVdOcvLWYMWzy6sJyIMic2aQz5kh2bPTd9dzY3NtdeEAzPp/PhgZqr4aJObB3ym/vsItMg==" crossorigin="anonymous"></script>
+
+    <!-- custom css -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+<style>
+  .form
+    {
+      font-size: 18px;
+    }
+ 
+</style>
+
+</head>
+<body data-gr-c-s-loaded="true" class="vsc-initialized" style="user-select: auto">
+
+  
+    <header id="head">
+    
+    
+        <div class="dark-overlay ">
+        
+        <div class="top-bar w-100">
+              
+          <nav class="navbar  navbar-dark navbar-expand-lg fixed-top " style="background-color: black">
+            <a href="#" class="navbar-brand text-uppercase  ml-1"><b style="color: rgb(243, 6, 6);text-shadow: 1px 1px 1px rgba(247, 143, 143, 0.5);font-size: 18px;">online food ordering</b> </a>
+            
+            
+                
+                  <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Main Navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+        
+                  <div id="main-menu" class="collapse navbar-collapse">
+                      <ul class="navbar-nav w-100 justify-content-end">
+                              <li class="nav-item">
+                                  <a href="#home" class="nav-link active text-danger pl-3 " style="font-size: 20px;">Home</a>
+                              </li>
+                              
+                              <li class="nav-item">
+                                <a href="about.html" class="nav-link text-white pl-3" style="font-size: 20px;">About Us</a>
+                              </li>
+        
+                              <li class="nav-item ">
+                                  <a href="Contact.html" class="nav-link text-white pl-3 " style="font-size: 20px;">Contact Us</a>
+                              </li>
+        
+                              <li class="nav-item ">
+                                <a href="login.html"><input type="submit" name="notify" value="Login" class="pl-2 pr-2 mt-2 ml-3" style=" background-image: linear-gradient(to bottom right, yellow, green); color: black;border: 1px solid black;"></a>
+                            </li>
+        
+                             
+                       </ul>
+                  </div>
+        
+                 
+              </nav>
+          </div> 
+        </div>
+        
+        </header>
+
+    
+
+
+  <div class="container">
+    
+ 
+    <div class="  text-center " style="margin-top: 90px;">
+       
+      <h2 class=" p-2 pt-3" style="color: white;background-color: blueviolet;"><b style="text-shadow: 1px 1px 1px rgba(0,0,0,0.6);font-size: 27px;">ORDER DETAILS</b></h2>
+     
+    </div>
+   
+    
+  
+    <div class="container" style="color: black;background-color: rgb(241, 241, 241);">
+        <div class="col-lg-12 col-md-6 col-sm-6">
+
+       
+
+            <form action="connect.php" method="post">
+                
+                   
+                        <div class="form-group ">
+                            <div class="mb-3">
+                                <label for="name">Customer Name<span class="text-muted"></span></label>
+                                <input type="text" name="customername" class="form-control box" style="box-shadow: 2px 2px 2px rgba(0,0,0,0.5);" required="">
+                               
+                              </div>
+                          </div>
+                          <div class="form-group ">
+                            <div class="mb-3">
+                                <label for="email">Email<span class="text-muted"></span></label>
+                                <input type="text" class="form-control box" name="email" style="box-shadow: 2px 2px 2px rgba(0,0,0,0.5);">
+                               
+                              </div>
+                          </div>
+                      <div class="form-group ">
+                        <div class="mb-3">
+                            <label for="address">Address<span class="text-muted"></span></label>
+                            <input type="text" name="address" class="form-control box" style="box-shadow: 2px 2px 2px rgba(0,0,0,0.5);" required="">
+                           
+                          </div>
+                      </div>
+                      <div class="form-group ">
+                        <div class="mb-3">
+                            <label for="foodname">Food name<span class="text-muted"></span></label>
+                            <input type="text" name="foodname" class="form-control box" style="box-shadow: 2px 2px 2px rgba(0,0,0,0.5);" required="">
+                           
+                          </div>
+                      </div>
+                      
+                      <div class="form-group ">
+                        <div class="mb-3">
+                            <label for="amount">Enter Amount<span class="text-muted"></span></label>
+                            <input type="integer" class="form-control box" name="amount" style="box-shadow: 2px 2px 2px rgba(0,0,0,0.5);" required="">
+                            
+                          </div>
+                      </div>
+
+                      <div class="form-group ">
+                        <div class="mb-3">
+                            <label for="phone">Phone Number<span class="text-muted"></span></label>
+                            <input type="text" name="phone" class="form-control box" style="box-shadow: 2px 2px 2px rgba(0,0,0,0.5);" required="">
+                            
+                          </div>
+                      </div>
+                        
+                 
+                     
+                      <input type="submit" value="SUBMIT" class="mt-5 mb-5 pt-1 pb-1 pl-5 pr-5" style="background-color:  rgb(156, 84, 250);color: white;padding-left: 55px;padding-right: 55px;border: 1px solid black;">
+                        </form></div> 
+               
+              
+          </div>
+    
+  </div>
+  <section class="explored mt-2 mb-1" style="background-color:black">
+    <div class="container-fluid">
+        
+        <div class="col-md-6 p-2">
+          <div class="shut">
+       
+          <div class="media ml-2 " style="margin-top: 5px;">
+            <div>
+              <a href="http://www.twitter.com" class=" p-2 pl-0 text-primary">
+                <svg class="svg-inline--fa fa-twitter fa-w-16 fa-2x" style="font-size: 20px;" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg><!-- <i class="fab fa-twitter fa-2x" style="font-size: 20px;"></i> -->
+              </a>
+            </div>
+           
+            <div>
+              <a href="http://www.facebook.com" class="p-2" style="color: blue;">
+                <svg class="svg-inline--fa fa-facebook fa-w-16 fa-2x" style="font-size: 20px;" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"></path></svg><!-- <i class="fab fa-facebook fa-2x" style="font-size: 20px;"></i> -->
+              </a>
+            </div>
+            <div>
+              <a href="http://www.instagram.com" class=" p-2" style="color: rgb(228, 11, 228);">
+                <svg class="svg-inline--fa fa-instagram fa-w-14 fa-2x" style="font-size: 20px;" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg><!-- <i class="fab fa-instagram fa-2x" style="font-size: 20px;"></i> -->
+              </a>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+      
+    
+    
+    </div>
+  
+      
+    
+  </section>
+  
+
+  
+
+     
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <!-- custom script -->
+    
+
+
+
+</body>
+</body>
+</html>
